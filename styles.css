@@ -22,7 +22,7 @@ p{
 	font-family: "TT";
 }
 h1{
-	font-size: 30px;
+	font-size: 40px;
 	color: #fff;
 	font-family: "LeagueBold";
 }
@@ -37,8 +37,8 @@ h2{
 
 
 li{
-	width: 800px;
-	height: 300px;
+	width: 400px;
+	height: 200px;
 	overflow: hidden;
 
 	border: 3px solid #fff;
