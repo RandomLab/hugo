@@ -1,39 +1,55 @@
+@font-face{
+font-family : "LeagueBold";
+src : url("LeagueMono-ExtraBold.ttf") format('truetype');
+}
+
+@font-face{
+	font-family : "LeagueReg";
+	src : url("LeagueMono-Regular.ttf") format('truetype');
+}
+
+@font-face{
+	font-family : "TT";
+	src : url("TT\ Norms\ Pro\ Regular.otf") format('opentype');
+}
+
 body{
 	background: #000;
 }
 p{
 	font-size: 20px;
 	color: #fff;
-	font-family: Arial;
+	font-family: "TT";
 }
 h1{
 	font-size: 30px;
 	color: #fff;
-	font-family: League-Mono ExtraBold;
+	font-family: "LeagueBold";
 }
 
 h2{
-	font-size: 15px;
+	font-size: 12px;
 	color: #fff;
-	font-family: League-Mono Regular;
+	font-family: "LeagueReg";
 
+	margin: 12px;
 }
 
 
 li{
-	width: 700px;
-	height: 400px;
+	width: 800px;
+	height: 300px;
 	overflow: hidden;
 
-	border: 5px solid #fff;
+	border: 3px solid #fff;
 
 	margin-bottom: 20px;
 }
 
 li a{
-	font-size: 30px;
+	font-size: 15px;
 	color: #fff;
-	font-family: Arial;
+	font-family: "LeagueReg";
 
 	margin: 10px;
 }
