@@ -9,9 +9,15 @@ p{
 h1{
 	font-size: 30px;
 	color: #fff;
-	font-family: Arial;
+	font-family: League-Mono ExtraBold;
 }
 
+h2{
+	font-size: 15px;
+	color: #fff;
+	font-family: League-Mono Regular;
+
+}
 
 
 li{
