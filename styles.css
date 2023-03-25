@@ -14,13 +14,46 @@ src : url("LeagueMono-ExtraBold.ttf") format('truetype');
 }
 
 body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+#main{
+	position: absolute;
+	display: block;
+
+	width: calc(100% - 40px);
+	height: auto;
+
+	background: #111;
+	padding: 0;
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#intro{
+	position: relative;
+	display: inline-block;
+	
+	margin: 20px;
+	width: calc(100% - 40px);
+	height: 100%;
+}
+
+body{
 	background: #000;
 }
+
 p{
 	font-size: 20px;
 	color: #fff;
 	font-family: "TT";
 }
+
 h1{
 	font-size: 40px;
 	color: #fff;
@@ -37,25 +70,40 @@ h2{
 
 
 li{
-	width: 400px;
-	height: 200px;
+	position: relative;
+	display:inline-block;
+
+	width: calc(100% - 40px);
+	left: 20px;
+
+	height: 400px;
 	overflow: hidden;
 
 	border: 3px solid #fff;
+	margin: 0px;
 
 	margin-bottom: 20px;
+
+	background-color: #000;
 }
 
 li a{
-	font-size: 15px;
+	font-size: 3.3em;
 	color: #fff;
 	font-family: "LeagueReg";
 
 	margin: 10px;
+	margin-bottom: 30px;
 }
 
 
 li iframe{
 	width: 100%;
 	height: 100%;
+}
+
+@media only screen and (orientation: landscape) {
+	li a{
+		font-size: 1.3em;
+	}
 }
